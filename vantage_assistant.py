@@ -5,7 +5,7 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 ## uncomment the above lines if you are running locally and have pysqlite3 installed
-## import sqlite3
+##import sqlite3
 import streamlit as st
 import random
 import time
@@ -13,7 +13,7 @@ import os
 from query_data import get_answer
 
 
-###  streamlit run C:\Users\marceloraraujo\Documents\GitHub\vantage_assistant\vantage_assistant.py
+###  streamlit run C:\Users\marceloraraujo\Documents\vantage_assistant\vantage_assistant.py
 
 # Function to get the content from a BaseMessage object
 def get_message_content(message) -> str:
