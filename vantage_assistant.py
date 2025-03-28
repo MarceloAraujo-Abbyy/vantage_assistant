@@ -1,3 +1,4 @@
+## comment the above lines if you are running locally and have pysqlite3 installed
 __import__('pysqlite3')
 import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
