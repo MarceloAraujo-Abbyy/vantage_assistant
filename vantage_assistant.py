@@ -4,7 +4,7 @@ import sys
 sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 ## uncomment the above lines if you are running locally and have pysqlite3 installed
-#import sqlite3
+import sqlite3
 import streamlit as st
 import random
 import time
