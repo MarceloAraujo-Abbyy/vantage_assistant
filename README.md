@@ -13,6 +13,7 @@ When create your streamlit app, set the secrets with the according information:
 OPENAI_API_KEY = ""
 VANTAGE_CLIENT_ID = "" 
 VANTAGE_CLIENT_SECRET = ""
-VANTAGE_TENANT_ID = "" 
 VANTAGE_TENANT_NAME = ""
+VANTAGE_TENANT_ID = "" 
+VANTAGE_BASE_URL = ""
 
